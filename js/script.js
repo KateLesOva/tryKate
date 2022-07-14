@@ -118,23 +118,85 @@
 // УРОК
 
 
-const numberOfFilms = +prompt ("Сколько фильмов вы уже посмотрели?", "");
+// const numberOfFilms = +prompt ("Сколько фильмов вы уже посмотрели?", "");
 
-const prrsonalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genros: [],
-    privat: false
-};
+// const prrsonalMovieDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genros: [],
+//     privat: false
+// };
 
 
-const a = prompt ("One of have watched movie", ""),
-      b = prompt ("Marck it", ""),
-      c = prompt ("One of have watched movie", ""),
-      d = prompt ("Marck it", "");
+// const a = prompt ("One of have watched movie", ""),
+//       b = prompt ("Marck it", ""),
+//       c = prompt ("One of have watched movie", ""),
+//       d = prompt ("Marck it", "");
 
-prrsonalMovieDB.movies[a] = b;
-prrsonalMovieDB.movies[c] = d;
+// prrsonalMovieDB.movies[a] = b;
+// prrsonalMovieDB.movies[c] = d;
 
-console.log(prrsonalMovieDB);
+// console.log(prrsonalMovieDB);
+
+
+// if (4 == 9) {
+//     console.log('Ok!');
+// } else {
+//     console.log('error');
+// }
+
+
+// const num = 50;
+
+// if (num < 49) {
+//     console.log('error');
+// } else if (num > 100) {
+//     console.log('Too many');
+// } else {
+//     console.log('Everthing is ok');
+
+// }
+
+// const num = 66;
+
+// // (num === 50) ? console.log('Everthing is ok'): console.log('error');
+
+// switch (num) {
+//     case 49:
+//         console.log('error');
+//         break;
+//     case 100:
+//         console.log('error');
+//         break;
+//     case 50:
+//         console.log('ok');
+//         break;
+//     default:
+//         console.log('not this time!');
+//         break;
+
+// }
+
+// УРОК
+
+// let num = 50;
+
+// while (num <= 55) {
+//     console.log(num);
+//     num++;
+// }
+
+// do {
+//     console.log(num);
+//     num++;
+// } while (num <= 55);
+
+
+for (let i = 1; i < 10; i++) {
+    if (i === 6) {
+        // break;
+        continue;
+    }
+    console.log(i);
+}
