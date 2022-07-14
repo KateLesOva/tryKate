@@ -95,22 +95,46 @@
 // console.log(4 + +'8');
 
 
-let incr = 10, 
-    decr = 10;
+// let incr = 10, 
+//     decr = 10;
 
-// ++incr;
-// --decr;
+// // ++incr;
+// // --decr;
 
-console.log(++incr);
-console.log(--decr);
+// console.log(++incr);
+// console.log(--decr);
 
 
-console.log(5%2);
+// console.log(5%2);
 
-console.log(2*4 === "8");
+// console.log(2*4 === "8");
 
-const isChecked = false,
-      isClose = false;
+// const isChecked = false,
+//       isClose = false;
 
-// console.log(isChecked && isClose);
-console.log(isChecked || !isClose);
+// // console.log(isChecked && isClose);
+// console.log(isChecked || !isClose);
+
+// УРОК
+
+
+const numberOfFilms = +prompt ("Сколько фильмов вы уже посмотрели?", "");
+
+const prrsonalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genros: [],
+    privat: false
+};
+
+
+const a = prompt ("One of have watched movie", ""),
+      b = prompt ("Marck it", ""),
+      c = prompt ("One of have watched movie", ""),
+      d = prompt ("Marck it", "");
+
+prrsonalMovieDB.movies[a] = b;
+prrsonalMovieDB.movies[c] = d;
+
+console.log(prrsonalMovieDB);
